@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/bgd1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.gouree.truetasklist.MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="PLAN YOUR WORK AND WORK YOUR PLAN WITH TRUE TASK LIST"
+        android:textColor="@color/brown"
+        android:textStyle="bold"
+        style="@style/Base.TextAppearance.AppCompat.Subhead"
+        android:gravity="center"
+        android:id="@+id/textView" />
+
+    <TextClock
+        android:textColor="@color/brown"
+        android:textStyle="bold"
+        android:textSize="18dp"
+        android:id="@+id/textClock2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/calendarView"
+        android:layout_centerHorizontal="true" />
+
+    <CalendarView
+        android:id="@+id/calendarView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="42dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="100dp"
+        android:layout_height="75dp"
+        android:layout_below="@+id/textView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="14dp"
+        app:srcCompat="@drawable/taskicon" />
+
+
+</RelativeLayout>
+
+
+
+
+

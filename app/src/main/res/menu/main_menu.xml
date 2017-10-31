@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <item
+        android:id="@+id/action_addtask"
+        android:icon="@drawable/add"
+        android:title="Add new Task"
+        app:showAsAction="always"
+        />
+
+
+    <item
+        android:id="@+id/action_displaytask"
+        android:icon="@drawable/view"
+        android:title=" Display "
+        app:showAsAction="always"
+        />
+
+    <item
+        android:id="@+id/action_taskstat"
+        android:icon="@drawable/complete"
+        android:title="Task status"
+        app:showAsAction="always"
+        />
+
+
+</menu>
